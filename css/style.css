@@ -1,0 +1,66 @@
+.book{
+    background-image: url(../image/pexels-photo-1111318.jpeg);
+    background-position:center;
+    background-size: cover;
+}
+.addBtn{
+    background-color: #fc46cf;
+    border: 1PX solid #fc46cf;
+    color: white;
+    transition: all 0.5s;
+}
+.addBtn:hover{
+    background-color: white;
+    color: #fc46cf;
+    border: 1px solid white;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0;
+}
+.bookName{
+    color: #797474;
+}
+.visitBtn{
+    background-color: #fc46cf;
+    border: 1PX solid #fc46cf;
+    color: white;
+    transition: all 0.5s;
+}
+.visitBtn:hover{
+    background-color: white;
+    color: #fc46cf;
+    border: 1px solid white;
+}
+.editBtn{
+    background-color: #797474;
+    border: 1px solid #797474;
+    color:  white;
+    transition:  all 0.5s;
+}
+.editBtn:hover{
+    color: #797474;
+    background-color: white;
+    border: 1px solid white;
+}
+.deleteBtn{
+    background-color: black;
+    border: 1px solid black;
+    color:  white;
+    transition:  all 0.5s;
+}
+.deleteBtn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+table,tr{
+    border-width: 1px;
+   border-radius: 20px !important;
+}
+.icon-up i{
+    background-color: white !important;
+    color: #fc46cf !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
